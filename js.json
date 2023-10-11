@@ -1,0 +1,69 @@
+{
+    "images": [
+        {
+            "nom": "MI2N",
+            "mots_cles": ["montagne", "neige", "panorama"],
+
+            "wheelType": "Rail",
+            "driveType": "Automatique",
+            "deliveryDate": "Après 2000",
+            "equipmentType": "RER",
+
+            "imageUrl": "images/MI2N.jpg",
+            "imageAlt": "RER MI2N"
+        },
+
+        {
+            "nom": "MI09",
+            "mots_cles": ["montagne", "neige", "panorama"],
+
+            "wheelType": "Rail",
+            "driveType": "Automatique",
+            "deliveryDate": "Après 2000",
+            "equipmentType": "RER",
+
+            "imageUrl": "images/MI09.jpg",
+            "imageAlt": "RER MI09"
+        },
+
+        {
+            "nom": "MI79",
+            "mots_cles": ["montagne", "neige", "panorama"],
+
+            "wheelType": "Rail",
+            "driveType": "Automatique",
+            "deliveryDate": "Après 2000",
+            "equipmentType": "RER",
+
+            "imageUrl": "images/MI79.jpg",
+            "imageAlt": "RER MI79"
+        },
+
+        {
+            "nom": "MI84",
+            "mots_cles": ["montagne", "neige", "panorama"],
+
+            "wheelType": "Rail",
+            "driveType": "Automatique",
+            "deliveryDate": "Après 2000",
+            "equipmentType": "RER",
+
+            "imageUrl": "images/MI84.jpg",
+            "imageAlt": "RER MI84"
+        },
+
+        {
+            "nom": "Z5600",
+            "mots_cles": ["montagne", "neige", "panorama"],
+
+            "wheelType": "Rail",
+            "driveType": "Automatique",
+            "deliveryDate": "Après 2000",
+            "equipmentType": "RER",
+
+            "imageUrl": "images/Z5600.jpg",
+            "imageAlt": "RER Z5600"
+        }
+    ]
+}
+

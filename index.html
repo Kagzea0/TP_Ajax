@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MMI - Matériel de Transport Ferroviaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MMI - Matériel de Transport Ferroviaire</h1>
+    </header>
+    <section id="filter-section">
+        <label for="wheel-type">Type de roue :</label>
+        <select id="wheel-type">
+            <option value="Tous">Tous</option>
+            <option value="Rail">Rail</option>
+            <option value="Pneu">Pneu</option>
+        </select>
+
+        <label for="drive-type">Type de conduite :</label>
+        <select id="drive-type">
+            <option value="Tous">Tous</option>
+            <option value="Automatique">Automatique</option>
+            <option value="Manuelle">Manuelle</option>
+        </select>
+
+        <label for="delivery-date">Date de livraison :</label>
+        <select id="delivery-date">
+            <option value="Tous">Tous</option>
+            <option value="Avant2000">Avant 2000</option>
+            <option value="Apres2000">Après 2000</option>
+        </select>
+
+        <label for="equipment-type">Type de matériel :</label>
+        <select id="equipment-type">
+            <option value="Tous">Tous</option>
+            <option value="Metro">Métro</option>
+            <option value="RER">RER</option>
+        </select>
+    </section>
+    <section id="image-container">
+        <!-- Les images seront ajoutées ici dynamiquement en utilisant JavaScript -->
+    </section>
+    <footer>
+        <!-- Pied de page avec les informations de l'entreprise fictive -->
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

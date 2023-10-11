@@ -1,0 +1,13 @@
+/* Styles pour les images */
+img {
+    max-width: 300px; /* Limite la largeur à 600 pixels */
+    max-height: 150px; /* Limite la hauteur à 400 pixels */
+    width: auto; /* Assure le respect de la proportion originale */
+    height: auto; /* Assure le respect de la proportion originale */
+    filter: grayscale(50%); /* Applique un filtre de niveau de gris à 50% */
+    margin: 20px;
+}
+
+#image-gallery{
+    background-color: green;
+}
