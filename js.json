@@ -2,7 +2,6 @@
     "images": [
         {
             "nom": "MI2N",
-            "mots_cles": ["montagne", "neige", "panorama"],
 
             "wheelType": "Rail",
             "driveType": "Automatique",
@@ -15,7 +14,6 @@
 
         {
             "nom": "MI09",
-            "mots_cles": ["montagne", "neige", "panorama"],
 
             "wheelType": "Rail",
             "driveType": "Automatique",
@@ -28,7 +26,6 @@
 
         {
             "nom": "MI79",
-            "mots_cles": ["montagne", "neige", "panorama"],
 
             "wheelType": "Rail",
             "driveType": "Automatique",
@@ -41,7 +38,6 @@
 
         {
             "nom": "MI84",
-            "mots_cles": ["montagne", "neige", "panorama"],
 
             "wheelType": "Rail",
             "driveType": "Automatique",
@@ -54,7 +50,6 @@
 
         {
             "nom": "Z5600",
-            "mots_cles": ["montagne", "neige", "panorama"],
 
             "wheelType": "Rail",
             "driveType": "Automatique",

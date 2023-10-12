@@ -11,3 +11,25 @@ img {
 #image-gallery{
     background-color: green;
 }
+
+aside section{
+    display: flex;
+    flex-direction: column;
+}
+
+aside .col1 select, aside .col1 label{
+    width: fit-content;
+}
+
+aside{
+    display: flex;
+}
+
+.col1{
+    width:30%;
+}
+
+.col2{
+    width:70%;
+    display: initial;
+}
