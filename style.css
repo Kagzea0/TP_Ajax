@@ -1,3 +1,7 @@
+body{
+    background: #587294;
+}
+
 /* Styles pour les images */
 img {
     max-width: 300px; /* Limite la largeur à 600 pixels */
@@ -25,10 +29,18 @@ aside{
 }
 
 .col1{
-    width:30%;
+    width:28.5%;
+    background: #416288;
+    position: absolute;
+    left: 20px;
+    border-radius: 25px;
 }
 
 .col2{
-    width:70%;
+    width: 68.5%;
     display: initial;
+    position: absolute;
+    right: 20px;
+    background: #416288;
+    border-radius: 25px;
 }

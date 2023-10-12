@@ -22,6 +22,11 @@ function displayImages(data) {
         // Définis l'attribut src avec l'URL de l'image du JSON
         imgElement.src = image.imageUrl;
 
+        // Style de l'image
+        imgElement.style.border = "20px solid #2A4C8E";
+        imgElement.style.borderRadius = "10px";
+
+
         // Définis l'attribut alt avec le texte alternatif de l'image du JSON
         imgElement.alt = image.imageAlt;
 
