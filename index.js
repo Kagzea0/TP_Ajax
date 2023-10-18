@@ -2,10 +2,10 @@
 fetch('js.json')
     .then(response => response.json()) // Transforme la réponse en JSON
     .then(data => {
-        // "data" est maintenant un objet JavaScript contenant les données JSON
+        // "data" = objet JavaScript contenant les données JSON
         console.log(data);
 
-        // Appelle la fonction pour afficher toutes les images à partir des données JSON
+        // Appelle la fonction afficher fichier JSON
         displayImages(data);
     })
     .catch(error => console.error('Erreur de chargement des données JSON:', error));
@@ -16,16 +16,10 @@ function displayImages(data) {
     
     // Parcours le tableau d'images dans les données JSON
     data.images.forEach(image => {
-        // Crée un élément img pour chaque image
         const imgElement = document.createElement('img');
 
         // Définis l'attribut src avec l'URL de l'image du JSON
         imgElement.src = image.imageUrl;
-
-        // Style de l'image
-        imgElement.style.border = "20px solid #2A4C8E";
-        imgElement.style.borderRadius = "10px";
-
 
         // Définis l'attribut alt avec le texte alternatif de l'image du JSON
         imgElement.alt = image.imageAlt;

@@ -3,25 +3,45 @@ body{
 }
 
 header{
-    width:98.5%;
-    background: #416288;
     position: relative;
+    padding: 15px;
+    margin: 15px;
+    background: #416288;
+    border-radius: 10px;
+}
+
+aside{
+    display: flex;
+}
+
+.col1{
+    position: relative;
+    width:25%;
+    padding: 15px;
+    margin: 15px;
+    background: #416288;
     border-radius: 25px;
-    left: 20px;
+}
+
+.col2{
+    position: absolute;
     right: 20px;
+    width: 68%;
+    padding: 15px;
+    margin: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #416288;
+    border-radius: 25px;
 }
 
 /* Styles pour les images */
-img {
-    max-width: 300px; /* Limite la largeur à 600 pixels */
-    max-height: 200px; /* Limite la hauteur à 400 pixels */
-    width: auto; /* Assure le respect de la proportion originale */
-    height: auto; /* Assure le respect de la proportion originale */
-    margin: 20px;
-}
-
-#image-gallery{
-    background-color: green;
+.col2 img {
+    position: relative;
+    width: 20%;
+    border : 20px solid #2A4C8E;
+    border-radius: 20px;
 }
 
 aside section{
@@ -31,25 +51,4 @@ aside section{
 
 aside .col1 select, aside .col1 label{
     width: fit-content;
-}
-
-aside{
-    display: flex;
-}
-
-.col1{
-    width:28.5%;
-    background: #416288;
-    position: absolute;
-    left: 20px;
-    border-radius: 25px;
-}
-
-.col2{
-    width: 68.5%;
-    display: initial;
-    position: absolute;
-    right: 20px;
-    background: #416288;
-    border-radius: 25px;
 }

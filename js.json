@@ -2,109 +2,91 @@
     "images": [
         {
             "nom": "MI2N",
-
             "wheelType": "Rail",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "RER",
-
-            "imageUrl": "images/MI2N.jpg",
+            "imageUrl": "images/RER/MI2N.jpg",
             "imageAlt": "RER MI2N"
         },
 
         {
             "nom": "MI09",
-
             "wheelType": "Rail",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "RER",
-
-            "imageUrl": "images/MI09.jpg",
+            "imageUrl": "images/RER/MI09.jpg",
             "imageAlt": "RER MI09"
         },
 
         {
             "nom": "MI79",
-
             "wheelType": "Rail",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "RER",
-
-            "imageUrl": "images/MI79.jpg",
+            "imageUrl": "images/RER/MI79.jpg",
             "imageAlt": "RER MI79"
         },
 
         {
             "nom": "MI84",
-
             "wheelType": "Rail",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "RER",
-
-            "imageUrl": "images/MI84.jpg",
+            "imageUrl": "images/RER/MI84.jpg",
             "imageAlt": "RER MI84"
         },
 
         {
             "nom": "Z5600",
-
             "wheelType": "Rail",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "RER",
-
-            "imageUrl": "images/Z5600.jpg",
+            "imageUrl": "images/RER/Z5600.jpg",
             "imageAlt": "RER Z5600"
         },
 
         {
             "nom": "Z20500",
-
             "wheelType": "Rail",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "RER",
-
-            "imageUrl": "images/Z20500.jpg",
+            "imageUrl": "images/RER/Z20500.jpg",
             "imageAlt": "RER Z20500"
         },
 
         {
             "nom": "Z22500",
-
             "wheelType": "Rail",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "RER",
-
-            "imageUrl": "images/Z22500.jpg",
+            "imageUrl": "images/RER/Z22500.jpg",
             "imageAlt": "RER Z22500"
         },
 
         {
             "nom": "Z50000",
-
             "wheelType": "Rail",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "RER",
-
-            "imageUrl": "images/Z50000.jpg",
+            "imageUrl": "images/RER/Z50000.jpg",
             "imageAlt": "RER Z50000"
         },
 
         {
             "nom": "Z57000",
-
             "wheelType": "Rail",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "RER",
-
-            "imageUrl": "images/Z57000.jpg",
+            "imageUrl": "images/RER/Z57000.jpg",
             "imageAlt": "RER Z57000"
         }
     ]
