@@ -1,8 +1,10 @@
+let data; // Variable globale pour stocker les données JSON
+
 // Charge le fichier JSON depuis une URL ou un fichier local
 fetch('js.json')
     .then(response => response.json()) // Transforme la réponse en JSON
-    .then(data => {
-        // "data" = objet JavaScript contenant les données JSON
+    .then(jsonData => {
+        data = jsonData; // Stocke les données JSON dans la variable globale
         console.log(data);
 
         // Appelle la fonction afficher fichier JSON
@@ -10,21 +12,52 @@ fetch('js.json')
     })
     .catch(error => console.error('Erreur de chargement des données JSON:', error));
 
-function displayImages(data) {
+// Fonction pour afficher les images filtrées
+function displayImages(images) {
     // Récupère le conteneur d'images
-    const imageContainer = document.getElementById('image-container'); // Remplace avec l'ID de ton conteneur d'images
-    
-    // Parcours le tableau d'images dans les données JSON
-    data.images.forEach(image => {
+    const imageContainer = document.getElementById('image-container'); // Assure-toi d'avoir l'ID correct
+
+    // Parcours les images filtrées
+    imageContainer.innerHTML = ''; // Efface le contenu précédent
+
+    images.forEach(image => {
         const imgElement = document.createElement('img');
-
-        // Définis l'attribut src avec l'URL de l'image du JSON
         imgElement.src = image.imageUrl;
-
-        // Définis l'attribut alt avec le texte alternatif de l'image du JSON
         imgElement.alt = image.imageAlt;
-
-        // Ajoute l'élément img à ton conteneur d'images
         imageContainer.appendChild(imgElement);
     });
+}
+
+// Récupère les éléments de liste déroulante
+const wheelTypeSelect = document.getElementById('wheel-type');
+const driveTypeSelect = document.getElementById('drive-type');
+const deliveryDateSelect = document.getElementById('delivery-date');
+const equipmentTypeSelect = document.getElementById('equipment-type');
+
+// Ajoute un écouteur d'événement "change" à chaque liste
+wheelTypeSelect.addEventListener('change', filterImages);
+driveTypeSelect.addEventListener('change', filterImages);
+deliveryDateSelect.addEventListener('change', filterImages);
+equipmentTypeSelect.addEventListener('change', filterImages);
+
+// Fonction pour filtrer les images en fonction des sélections
+function filterImages() {
+    // Récupère les valeurs sélectionnées dans les listes
+    const selectedWheelType = wheelTypeSelect.value;
+    const selectedDriveType = driveTypeSelect.value;
+    const selectedDeliveryDate = deliveryDateSelect.value;
+    const selectedEquipmentType = equipmentTypeSelect.value;
+
+    // Filtrer les images en fonction des sélections
+    const filteredImages = data.images.filter(image => {
+        return (
+            (selectedWheelType === 'Tous' || image.wheelType === selectedWheelType) &&
+            (selectedDriveType === 'Tous' || image.driveType === selectedDriveType) &&
+            (selectedDeliveryDate === 'Tous' || image.deliveryDate === selectedDeliveryDate) &&
+            (selectedEquipmentType === 'Tous' || image.equipmentType === selectedEquipmentType)
+        );
+    });
+
+    // Appelle la fonction pour afficher les images filtrées
+    displayImages(filteredImages);
 }

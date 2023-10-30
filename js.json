@@ -4,7 +4,7 @@
             "nom": "MI2N",
             "wheelType": "Fer",
             "driveType": "Manuel",
-            "deliveryDate": "Après 2000",
+            "deliveryDate": "Avant 2000",
             "equipmentType": "RER",
             "imageUrl": "images/RER/MI2N.jpg",
             "imageAlt": "RER MI2N"
@@ -44,7 +44,7 @@
             "nom": "Z5600",
             "wheelType": "Fer",
             "driveType": "Manuel",
-            "deliveryDate": "Après 2000",
+            "deliveryDate": "Avant 2000",
             "equipmentType": "RER",
             "imageUrl": "images/RER/Z5600.jpg",
             "imageAlt": "RER Z5600"
@@ -54,7 +54,7 @@
             "nom": "Z20500",
             "wheelType": "Fer",
             "driveType": "Manuel",
-            "deliveryDate": "Après 2000",
+            "deliveryDate": "Avant 2000",
             "equipmentType": "RER",
             "imageUrl": "images/RER/Z20500.jpg",
             "imageAlt": "RER Z20500"
@@ -64,7 +64,7 @@
             "nom": "Z22500",
             "wheelType": "Fer",
             "driveType": "Manuel",
-            "deliveryDate": "Après 2000",
+            "deliveryDate": "Avant 2000",
             "equipmentType": "RER",
             "imageUrl": "images/RER/Z22500.jpg",
             "imageAlt": "RER Z22500"
@@ -93,9 +93,9 @@
         {
             "nom": "MF01",
             "wheelType": "Fer",
-            "driveType": "???",
+            "driveType": "Manuel",
             "deliveryDate": "Après 2000",
-            "equipmentType": "RER",
+            "equipmentType": "Metro",
             "imageUrl": "images/Metro/MF01.jpg",
             "imageAlt": "Metro MF01"
         },
@@ -103,9 +103,9 @@
         {
             "nom": "MF59",
             "wheelType": "Fer",
-            "driveType": "?",
-            "deliveryDate": "Après 2000",
-            "equipmentType": "RER",
+            "driveType": "Manuel",
+            "deliveryDate": "Avant 2000",
+            "equipmentType": "Metro",
             "imageUrl": "images/Metro/MF59.jpg",
             "imageAlt": "Metro MF59"
         },
@@ -113,8 +113,8 @@
         {
             "nom": "MF67",
             "wheelType": "Fer",
-            "driveType": "?",
-            "deliveryDate": "Après 2000",
+            "driveType": "Manuel",
+            "deliveryDate": "Avant 2000",
             "equipmentType": "Metro",
             "imageUrl": "images/Metro/MF67.jpg",
             "imageAlt": "Metro MF67"
@@ -123,8 +123,8 @@
         {
             "nom": "MF77",
             "wheelType": "Fer",
-            "driveType": "?",
-            "deliveryDate": "Après 2000",
+            "driveType": "Manuel",
+            "deliveryDate": "Avant 2000",
             "equipmentType": "Metro",
             "imageUrl": "images/Metro/MF77.jpg",
             "imageAlt": "Metro MF77"
@@ -133,8 +133,8 @@
         {
             "nom": "MF88",
             "wheelType": "Fer",
-            "driveType": "?",
-            "deliveryDate": "Après 2000",
+            "driveType": "Manuel",
+            "deliveryDate": "Avant 2000",
             "equipmentType": "Metro",
             "imageUrl": "images/Metro/MF88.png",
             "imageAlt": "Metro MF88"
@@ -164,7 +164,7 @@
             "nom": "MP73",
             "wheelType": "Rail",
             "driveType": "Automatique",
-            "deliveryDate": "Après 2000",
+            "deliveryDate": "Avant 2000",
             "equipmentType": "Metro",
             "imageUrl": "images/Metro/MP73.jpg",
             "imageAlt": "Metro MP73"
@@ -174,7 +174,7 @@
             "nom": "MP89",
             "wheelType": "Rail",
             "driveType": "Automatique",
-            "deliveryDate": "Après 2000",
+            "deliveryDate": "Avant 2000",
             "equipmentType": "Metro",
             "imageUrl": "images/Metro/MP89.jpg",
             "imageAlt": "Metro MP89"
