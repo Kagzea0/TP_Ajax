@@ -7,8 +7,8 @@ fetch('js.json')
         data = jsonData; // Stocke les données JSON dans la variable globale
         console.log(data);
 
-        // Appelle la fonction afficher fichier JSON
-        displayImages(data);
+        // Appelle la fonction pour afficher les images initialement
+        displayImages(data.images);
     })
     .catch(error => console.error('Erreur de chargement des données JSON:', error));
 
@@ -26,7 +26,7 @@ function displayImages(images) {
         imgElement.alt = image.imageAlt;
         imageContainer.appendChild(imgElement);
     });
-}
+};
 
 // Récupère les éléments de liste déroulante
 const wheelTypeSelect = document.getElementById('wheel-type');
@@ -73,7 +73,6 @@ function resetPage() {
     // Réaffiche toutes les images
     displayImages(data.images);
 }
-
 
 // Récupère le bouton de réinitialisation
 const resetButton = document.getElementById('reset-button');
