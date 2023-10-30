@@ -15,18 +15,35 @@ aside{
 }
 
 .col1{
-    position: relative;
-    width: 25%;
+    position: absolute;
+    left: 10px;
+    right: 70%;
+    max-width: 25%;
+    min-height: 224.33px;
     padding: 15px;
     margin: 15px;
-    background: #416288;
+    gap: 10px;
+    background-color: green;
     border-radius: 25px;
+}
+
+div {
+    position: absolute;
+    left: 27.75%;
+    right: 20px;
+    max-width: 68%;
+    min-width: 20%;
+    min-height: 224.33px;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+    background-color: red;
+    z-index: 999;
 }
 
 .col2{
     position: absolute;
     right: 20px;
-    width: 68%;
     padding: 15px;
     margin: 15px;
     flex-direction: row;
