@@ -142,7 +142,7 @@
 
         {
             "nom": "MP05",
-            "wheelType": "Rail",
+            "wheelType": "Pneu",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "Metro",
@@ -152,7 +152,7 @@
 
         {
             "nom": "MP14",
-            "wheelType": "Rail",
+            "wheelType": "Pneu",
             "driveType": "Automatique",
             "deliveryDate": "Après 2000",
             "equipmentType": "Metro",
@@ -162,7 +162,7 @@
 
         {
             "nom": "MP73",
-            "wheelType": "Rail",
+            "wheelType": "Pneu",
             "driveType": "Automatique",
             "deliveryDate": "Avant 2000",
             "equipmentType": "Metro",
@@ -172,7 +172,7 @@
 
         {
             "nom": "MP89",
-            "wheelType": "Rail",
+            "wheelType": "Pneu",
             "driveType": "Automatique",
             "deliveryDate": "Avant 2000",
             "equipmentType": "Metro",

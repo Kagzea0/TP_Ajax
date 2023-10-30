@@ -61,3 +61,22 @@ function filterImages() {
     // Appelle la fonction pour afficher les images filtrées
     displayImages(filteredImages);
 }
+
+// Fonction pour réinitialiser la page
+function resetPage() {
+    // Réinitialise les listes déroulantes en remettant leur valeur à "Tous"
+    wheelTypeSelect.value = "Tous";
+    driveTypeSelect.value = "Tous";
+    deliveryDateSelect.value = "Tous";
+    equipmentTypeSelect.value = "Tous";
+
+    // Réaffiche toutes les images
+    displayImages(data.images);
+}
+
+
+// Récupère le bouton de réinitialisation
+const resetButton = document.getElementById('reset-button');
+
+// Ajoute un écouteur d'événement au bouton de réinitialisation
+resetButton.addEventListener('click', resetPage);
