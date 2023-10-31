@@ -1,22 +1,9 @@
-body{
-    background: #587294;
-    font-size: xx-large;
-}
-
-header{
-    position: relative;
-    padding: 15px;
-    margin: 15px;
-    background: #416288;
-    border-radius: 10px;
-}
-
 aside{
     display: flex;
 }
 
 .col1{
-    position: absolute;
+    position: fixed;
     left: 10px;
     right: 70%;
     max-width: 25%;
@@ -28,23 +15,9 @@ aside{
     border-radius: 25px;
 }
 
-div {
-    position: absolute;
-    left: 27.75%;
-    right: 20px;
-    max-width: 68%;
-    min-width: 20%;
-    min-height: 224.33px;
-    border-radius: 25px;
-    padding: 15px;
-    margin: 15px;
-    background-color: red;
-    z-index: 999;
-}
-
 .col2{
-    position: absolute;
-    right: 20px;
+    position: fixed;
+    right: 1.125%;
     padding: 15px;
     margin: 15px;
     flex-direction: row;
@@ -52,14 +25,6 @@ div {
     gap: 10px;
     background: #416288;
     border-radius: 25px;
-}
-
-/* Styles pour les images */
-.col2 img {
-    position: relative;
-    width: 20%;
-    border : 20px solid #2A4C8E;
-    border-radius: 20px;
 }
 
 aside section{

@@ -30,7 +30,7 @@ header p{
     color: black;
 }
 
-.col1{ /* VERT */
+.col1{
     position: fixed;
     width: 20%;
     min-height: 60%;
@@ -53,9 +53,8 @@ header p{
     color: black;
 }
 
-.col2{ /* JAUNE */
+.col2{
     position: fixed;
-    right: 0;
     width: 70%;
     min-height: 60%;
     margin: 2%;
@@ -65,9 +64,9 @@ header p{
 }
 
 /* Styles pour les images */
-/* .col2 img {
+.col2 img {
     position: relative;
     width: 20%;
     border : 20px solid #2A4C8E;
     border-radius: 20px;
-} */
+}
