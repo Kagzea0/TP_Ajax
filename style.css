@@ -7,13 +7,13 @@ body{
     background: #587294;
 }
 
-header{ /* ROUGE */
+header{
     height: 10em;
     margin-top: 2%;
     margin-right: 2%;
     margin-left: 2%;
-    border-radius: 10px;
-    background-color: red;
+    border-radius: 25px;
+    background: #416288;
 }
 
 header h1{
@@ -39,28 +39,39 @@ header p{
     align-items: center;
     margin: 2%;
     padding: 1%;
-    border-radius: 10px;
-    background-color: green;
+    border-radius: 25px;
+    background: #416288;
 }
 
 .col1 label, .col1 select{
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
+    width: fit-content;
+}
+
+aside section{
+    display: flex;
+    flex-direction: column;
 }
 
 .col1 button{
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
 }
 
 .col2{
     position: fixed;
-    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 69%;
+    right: 1.125%;
     min-height: 60%;
     margin: 2%;
     padding: 1%;
-    border-radius: 10px;
-    background-color: yellow;
+    row-gap: 20px;
+    column-gap: 2.5%;
+    border-radius: 25px;
+    background: #416288;
 }
 
 /* Styles pour les images */

@@ -15,18 +15,6 @@ aside{
     border-radius: 25px;
 }
 
-.col2{
-    position: fixed;
-    right: 1.125%;
-    padding: 15px;
-    margin: 15px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    background: #416288;
-    border-radius: 25px;
-}
-
 aside section{
     display: flex;
     flex-direction: column;
