@@ -1,71 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background: #587294;
 }
 
-header{
-    position: relative;
-    padding: 15px;
-    margin: 15px;
-    background: #416288;
+header{ /* ROUGE */
+    height: 10em;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
     border-radius: 10px;
-}
-
-aside{
-    display: flex;
-}
-
-.col1{
-    position: absolute;
-    left: 10px;
-    right: 70%;
-    max-width: 25%;
-    min-height: 224.33px;
-    padding: 15px;
-    margin: 15px;
-    gap: 10px;
-    background-color: green;
-    border-radius: 25px;
-}
-
-div {
-    position: absolute;
-    left: 27.75%;
-    right: 20px;
-    max-width: 68%;
-    min-width: 20%;
-    min-height: 224.33px;
-    border-radius: 25px;
-    padding: 15px;
-    margin: 15px;
     background-color: red;
-    z-index: 999;
 }
 
-.col2{
-    position: absolute;
-    right: 20px;
-    padding: 15px;
-    margin: 15px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    background: #416288;
-    border-radius: 25px;
+header h1{
+    padding-top: 0.5em;
+    text-align: center;
+    font-size: 300%;
+    color: black;
+}
+
+header p{
+    padding-top: 0.5em;
+    text-align: center;
+    font-size: 200%;
+    color: black;
+}
+
+.col1{ /* VERT */
+    position: fixed;
+    width: 20%;
+    min-height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.col1 label, .col1 select{
+    font-size: 2em;
+    color: black;
+}
+
+.col1 button{
+    font-size: 2em;
+    color: black;
+}
+
+.col2{ /* JAUNE */
+    position: fixed;
+    right: 0;
+    width: 70%;
+    min-height: 60%;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: yellow;
 }
 
 /* Styles pour les images */
-.col2 img {
+/* .col2 img {
     position: relative;
     width: 20%;
     border : 20px solid #2A4C8E;
     border-radius: 20px;
-}
-
-aside section{
-    display: flex;
-    flex-direction: column;
-}
-
-aside .col1 select, aside .col1 label{
-    width: fit-content;
-}
+} */
