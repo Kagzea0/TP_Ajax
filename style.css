@@ -43,16 +43,20 @@ header p{
     background: #416288;
 }
 
-/* .col1 select, .col1 button{
-    width: 50%;
+.col1 select, .col1 button{
+    width: 100%;
     height: 50px;
     font-size: x-large;
+    border: 1px solid #b6b6b6;
+    outline: none;
+    background: transparent;
+    cursor: pointer; 
 }
 
 .col1 label{
     height: 50px;
     font-size: x-large;
-} */
+}
 
 aside section{
     display: flex;
@@ -79,11 +83,10 @@ aside section{
     border-radius: 0;
     margin: 0;
     display: block;
-    max-width: 300px;
     min-width: 100%;
     cursor: pointer; 
     padding: 15px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .custom-select select:after{
@@ -111,7 +114,7 @@ aside section{
     margin: 2%;
     padding: 1%;
     row-gap: 20px;
-    column-gap: 2.5%;
+    column-gap: 20px;
     border-radius: 25px;
     background: #416288;
 }
