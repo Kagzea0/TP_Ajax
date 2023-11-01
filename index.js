@@ -58,6 +58,10 @@ function filterImages() {
         );
     });
 
+    // Appelle la fonction pour afficher les images filtrées
+    displayImages(filteredImages);
+}
+
     // // Récupère le conteneur d'images
     // const imageContainer = document.getElementById('image-container'); // Assure-toi d'avoir l'ID correct
 
@@ -72,7 +76,6 @@ function filterImages() {
     //     // Si aucune image n'est présente, masque la section
     //     imageContainer.style.display = 'none';
     // }
-}
 
 // Fonction pour réinitialiser la page
 function resetPage() {
