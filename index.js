@@ -26,6 +26,34 @@ function displayImages(images) {
         imgElement.alt = image.imageAlt;
         imageContainer.appendChild(imgElement);
     });
+
+    // images.forEach(image => {
+    //     // Je crée une div pour chaque image
+    //     const imageDiv = document.createElement('div');
+    
+    //     // Je crée un élément img pour chaque image
+    //     const imgElement = document.createElement('img');
+    
+    //     // Je met le chemin et l'alt de l'image dans le src de l'img
+    //     imgElement.src = image.imageUrl;
+    //     imgElement.alt = image.imageAlt;
+    
+    //     // Je crée un élément p pour chaque nom d'image
+    //     const imageNom = document.createElement('p');
+    
+    //     // Je met les balises p et img dans la div
+    //     imageDiv.appendChild(imageNom);
+    //     imageDiv.appendChild(imgElement);
+    
+    //     // Je met la div dans le conteneur d'images
+    //     imageContainer.appendChild(imageDiv);
+    // });
+
+    // Si aucune image n'est présente, masque la section
+    if (images.length === 0) {
+        imageContainer.style.display = 'none';
+        return;
+    }
 };
 
 // Récupère les éléments de liste déroulante
@@ -61,21 +89,6 @@ function filterImages() {
     // Appelle la fonction pour afficher les images filtrées
     displayImages(filteredImages);
 }
-
-    // // Récupère le conteneur d'images
-    // const imageContainer = document.getElementById('image-container'); // Assure-toi d'avoir l'ID correct
-
-    // // Efface le contenu précédent
-    // imageContainer.innerHTML = '';
-
-    // // Si des images sont présentes, affiche-les
-    // if (filteredImages.length > 0) {
-    //     displayImages(filteredImages);
-    //     imageContainer.style.display = 'inline'; // Affiche la section
-    // } else {
-    //     // Si aucune image n'est présente, masque la section
-    //     imageContainer.style.display = 'none';
-    // }
 
 // Fonction pour réinitialiser la page
 function resetPage() {

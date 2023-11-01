@@ -18,7 +18,7 @@ header{
 
 header h1{
     padding-top: 0.5em;
-    text-align: center;
+    text-align: center; 
     font-size: 300%;
     color: black;
 }
@@ -30,6 +30,12 @@ header p{
     color: black;
 }
 
+aside section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Colonne gauche, avec des listes de choix */
 .col1{
     position: absolute;
     width: 15%;
@@ -45,27 +51,23 @@ header p{
 
 .col1 select, .col1 button{
     width: 100%;
-    height: 50px;
-    font-size: x-large;
+    height: 40px;
+    font-size: 20px;
     border: 1px solid #b6b6b6;
     outline: none;
     background: transparent;
     cursor: pointer; 
 }
 
+/* Titre des liste de choix */
 .col1 label{
     height: 50px;
-    font-size: x-large;
+    font-size: 20px;
+    margin-bottom: -20px;
 }
 
-aside section{
-    display: flex;
-    flex-direction: column;
-}
-
-/* Select Wrapper (for befores & afters) */
+/* Changement de style des selects */
 .custom-select {
-    /* wrapper style */
     position: relative;
     display: block;
     max-width: 400px;
@@ -89,29 +91,15 @@ aside section{
     font-size: 16px;
 }
 
-.custom-select select:after{
-    border: 1px solid #b6b6b6;
-    outline: none;
-    background: transparent;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 0;
-    margin: 0;
-    display: block;
-    min-width: 80%;
-    cursor: pointer; 
-    padding: 15px;
-    font-size: 18px;
-}
-
+/* Colonne droite, avec les images */
 .col2{
     position: absolute;
     flex-direction: row;
     flex-wrap: wrap;
     width: 75%;
-    right: 1.125%;
+    right: 0.2%;
     margin: 2%;
+    /* margin-left: 3%; */
     padding: 1%;
     row-gap: 20px;
     column-gap: 20px;
