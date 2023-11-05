@@ -1,10 +1,10 @@
-let data; // Variable globale pour stocker les données JSON
+let data;
 
 // Charge le fichier JSON depuis une URL ou un fichier local
 fetch('js.json')
-    .then(response => response.json()) // Transforme la réponse en JSON
+    .then(response => response.json())
     .then(jsonData => {
-        data = jsonData; // Stocke les données JSON dans la variable globale
+        data = jsonData;
         console.log(data);
 
         // Appelle la fonction pour afficher les images initialement
@@ -15,9 +15,8 @@ fetch('js.json')
 // Fonction pour afficher les images filtrées
 function displayImages(images) {
     // Récupère le conteneur d'images
-    const imageContainer = document.getElementById('image-container'); // Assure-toi d'avoir l'ID correct
+    const imageContainer = document.getElementById('image-container');
 
-    // Parcours les images filtrées
     imageContainer.innerHTML = ''; // Efface le contenu précédent
 
     images.forEach(image => {
@@ -27,6 +26,7 @@ function displayImages(images) {
         imageContainer.appendChild(imgElement);
     });
 
+    // // Code permettant d'afficher les images dans des divs avec le nom de l'image
     // images.forEach(image => {
     //     // Je crée une div pour chaque image
     //     const imageDiv = document.createElement('div');
@@ -90,7 +90,7 @@ function filterImages() {
     displayImages(filteredImages);
 }
 
-// Fonction pour réinitialiser la page
+// Fonction pour réafficher toutes les images
 function resetPage() {
     // Réinitialise les listes déroulantes en remettant leur valeur à "Tous"
     wheelTypeSelect.value = "Tous";
