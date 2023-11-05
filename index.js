@@ -98,8 +98,10 @@ function resetPage() {
     deliveryDateSelect.value = "Tous";
     equipmentTypeSelect.value = "Tous";
 
+    setTimeout(function () {location.reload()}, 1); // Recharge la page après 10ms
+
     // Réaffiche toutes les images
-    displayImages(data.images);
+    // displayImages(data.images);
 }
 
 // Récupère le bouton de réinitialisation
